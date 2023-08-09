@@ -74,7 +74,7 @@ __misty :__ Demand is negatively related with weathersit being Mist + Cloudy, Mi
 <br/>
 __spring :__ Demand is negatively related with winter season
 <br/>
-__sep :__ demand seems to be more during september month
+__sep :__ Demand seems to be more during september month
 <br/>
 
 ## Technologies Used
