@@ -5,7 +5,7 @@
 ## Table of Contents
 * [Problem Statement](#problem-statement)
 * [Business Objective](#business-objective)
-* [Analysis Approach](#analysis-approach)
+* [Solution Approach](#analysis-approach)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
@@ -38,9 +38,43 @@ Is fetched from publication
 [1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
 
 
-## Analysis Approach
+## Solution Approach
+1. Reading and Understanding the Data
+2. Visualising the Data
+3. Data Preparation for modelling
+4. Splitting the Data into Training and Testing Sets
+5. Building a linear model
+6. Residual Analysis of the train data
+7. Making Predictions Using the Final Mode
+8. Model Evaluation
 
 ## Conclusions
+
+Final recommended variables significant in predicting the demand for shared bikes
+
+<br/>
+**temp :** Demand is postively related with temperature
+<br/>
+**yr :** Year, yearwise there is growth in demand
+<br/>
+**sep :** Demand seems to be more during september month
+<br/>
+**winter :** Demand is postively related with winter season
+<br/>
+**summer :** Demand is postively related with summer season
+<br/>
+**light_snow_rain :** Demand is negatively related with weathersit being Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+<br/>
+**windspeed :** Demand is negatively related with wind speed
+<br/>
+**holiday :** Demand is negatively related with holiday, seems people wish to spend time with family
+<br/>
+**misty :** Demand is negatively related with weathersit being Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+<br/>
+**spring :** Demand is negatively related with winter season
+<br/>
+**sep :** demand seems to be more during september month
+<br/>
 
 ## Technologies Used
 - Python - Version 3.9.13
@@ -48,6 +82,8 @@ Is fetched from publication
 - pandas - Version 1.4.4
 - matplotlib - Version 3.5.2
 - seaborn - Version 0.11.2
+- statsmodels - Version 0.13.2
+- scikit-learn - Version 1.0.2
 - Jupyter Notebook - Version 6.4.12
 - Anaconda - Version 2.3.2
 
