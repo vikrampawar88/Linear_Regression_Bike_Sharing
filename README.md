@@ -53,27 +53,27 @@ Is fetched from publication
 Final recommended variables significant in predicting the demand for shared bikes
 
 <br/>
-**temp :** Demand is postively related with temperature
+__temp :__ Demand is postively related with temperature
 <br/>
-**yr :** Year, yearwise there is growth in demand
+__yr :__ Year, yearwise there is growth in demand
 <br/>
-**sep :** Demand seems to be more during september month
+__sep :__ Demand seems to be more during september month
 <br/>
-**winter :** Demand is postively related with winter season
+__winter :__ Demand is postively related with winter season
 <br/>
-**summer :** Demand is postively related with summer season
+__summer :__ Demand is postively related with summer season
 <br/>
-**light_snow_rain :** Demand is negatively related with weathersit being Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+__light_snow_rain :__ Demand is negatively related with weathersit being Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
 <br/>
-**windspeed :** Demand is negatively related with wind speed
+__windspeed :__ Demand is negatively related with wind speed
 <br/>
-**holiday :** Demand is negatively related with holiday, seems people wish to spend time with family
+__holiday :__ Demand is negatively related with holiday, seems people wish to spend time with family
 <br/>
-**misty :** Demand is negatively related with weathersit being Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+__misty :__ Demand is negatively related with weathersit being Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
 <br/>
-**spring :** Demand is negatively related with winter season
+__spring :__ Demand is negatively related with winter season
 <br/>
-**sep :** demand seems to be more during september month
+__sep :__ demand seems to be more during september month
 <br/>
 
 ## Technologies Used
